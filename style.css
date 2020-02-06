@@ -5,3 +5,12 @@ body{
 .my_div{
     background-color: white;
  }  
+ [data-vegetable="liquid"]{
+     background-color: rgb(218, 86, 35);
+ }
+ [data-vegetable]{
+    color: greenyellow;
+}
+[data-vegetable~="spicy"]{
+    color: rgb(13, 11, 116);
+}
