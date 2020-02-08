@@ -1,0 +1,72 @@
+body{
+   background-color: rgb(55, 158, 94); 
+ 
+}
+.format1 > img{
+    width: 200px;
+}
+.course{
+    padding: 20px;
+    background-color: brown;
+    width: 200px;
+    display: inline-block;
+    margin: 10px;
+
+}
+.course2{
+
+    background-color: burlywood;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+
+}
+.format1{
+    padding: 30px;
+    background-color: gold;
+    margin:10px;
+    height: 250px;
+    border: 3px solid rgb(255, 255, 255);
+    border-top: 3px double blueviolet;
+
+}
+.contenido{
+    font-family: 'Roboto', sans-serif;
+    background-color: darksalmon;
+    padding: 15px;
+}
+.contenido:hover{
+    background-color: rgb(57, 150, 39);
+    padding: 25px;
+}
+.pelementos::before{
+    
+color: deeppink;
+content: "lorem";
+}
+.my_div{
+    background-color: white;
+ }  
+ [data-vegetable="liquid"]{
+     background-color: rgb(218, 86, 35);
+ }
+ [data-vegetable]{
+    color: greenyellow;
+}
+[data-vegetable~="spicy"]{
+    color: rgb(13, 11, 116);
+}
+
+a{
+    color:blue;
+    font-weight: bold;
+}
+
+a:visited{
+    color:red;
+   
+}
+a:hover,a:active,a:focus {
+    color:darkred;
+    text-decoration:none ;
+}
